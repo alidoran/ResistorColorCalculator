@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Resistor4Band"
+    android:background="#fda367">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:foregroundGravity="center"
+            android:src="@mipmap/resistor01" />
+
+        <ImageView
+            android:id="@+id/Bresistor01"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:foregroundGravity="center"
+            android:src="@mipmap/resistor02black" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:foregroundGravity="center"
+            android:src="@mipmap/resistor03" />
+
+        <ImageView
+            android:id="@+id/Bresistor02"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:foregroundGravity="center"
+            android:src="@mipmap/resistor04black" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:foregroundGravity="center"
+            android:src="@mipmap/resistor05" />
+
+        <ImageView
+            android:id="@+id/Bresistor03"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:foregroundGravity="center"
+            android:src="@mipmap/resistor06black" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:foregroundGravity="center"
+            android:src="@mipmap/resistor07a" />
+
+        <ImageView
+            android:id="@+id/Bresistor04"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:foregroundGravity="center"
+            android:src="@mipmap/resistor072black" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:foregroundGravity="center"
+            android:src="@mipmap/resistor07c" />
+
+        <ImageView
+            android:id="@+id/Bresistor05"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:foregroundGravity="center"
+            android:src="@mipmap/resistor08brown" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:foregroundGravity="center"
+            android:src="@mipmap/resistor09" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Choose Your Color"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp"
+            android:background="#000000"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="3dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_margin="3dp"
+            android:layout_weight=".2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/Bresistor01black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="05dp"
+                    android:background="#000000"
+                    android:text="black"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/Bresistor01brown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#975901"
+                    android:text="brown" />
+
+                <Button
+                    android:id="@+id/Bresistor01red"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fd0102"
+                    android:text="red" />
+
+                <Button
+                    android:id="@+id/Bresistor01orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fd6632"
+                    android:text="orange" />
+
+                <Button
+                    android:id="@+id/Bresistor01yellow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fcfc01"
+                    android:text="yellow" />
+
+                <Button
+                    android:id="@+id/Bresistor01green"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#00aa02"
+                    android:text="green" />
+
+                <Button
+                    android:id="@+id/Bresistor01blue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#0296fc"
+                    android:text="blue" />
+
+                <Button
+                    android:id="@+id/Bresistor01violet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#af7ae9"
+                    android:text="violet" />
+
+                <Button
+                    android:id="@+id/Bresistor01gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#969696"
+                    android:text="gray" />
+
+                <Button
+                    android:id="@+id/Bresistor01white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#ffffff"
+                    android:text="white" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_margin="3dp"
+            android:layout_weight="0.2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/Bresistor02black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="05dp"
+                    android:background="#000000"
+                    android:text="black"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/Bresistor02brown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#975901"
+                    android:text="brown" />
+
+                <Button
+                    android:id="@+id/Bresistor02red"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fd0102"
+                    android:text="red" />
+
+                <Button
+                    android:id="@+id/Bresistor02orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fd6632"
+                    android:text="orange" />
+
+                <Button
+                    android:id="@+id/Bresistor02yellow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fcfc01"
+                    android:text="yellow" />
+
+                <Button
+                    android:id="@+id/Bresistor02green"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#00aa02"
+                    android:text="green" />
+
+                <Button
+                    android:id="@+id/Bresistor02blue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#0296fc"
+                    android:text="blue" />
+
+                <Button
+                    android:id="@+id/Bresistor02violet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#af7ae9"
+                    android:text="violet" />
+
+                <Button
+                    android:id="@+id/Bresistor02gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#969696"
+                    android:text="gray" />
+
+                <Button
+                    android:id="@+id/Bresistor02white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#ffffff"
+                    android:text="white" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_margin="3dp"
+            android:layout_weight="0.2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/Bresistor03black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="05dp"
+                    android:background="#000000"
+                    android:text="black"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/Bresistor03brown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#975901"
+                    android:text="brown" />
+
+                <Button
+                    android:id="@+id/Bresistor03red"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fd0102"
+                    android:text="red" />
+
+                <Button
+                    android:id="@+id/Bresistor03orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fd6632"
+                    android:text="orange" />
+
+                <Button
+                    android:id="@+id/Bresistor03yellow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fcfc01"
+                    android:text="yellow" />
+
+                <Button
+                    android:id="@+id/Bresistor03green"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#00aa02"
+                    android:text="green" />
+
+                <Button
+                    android:id="@+id/Bresistor03blue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#0296fc"
+                    android:text="blue" />
+
+                <Button
+                    android:id="@+id/Bresistor03violet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#af7ae9"
+                    android:text="violet" />
+
+                <Button
+                    android:id="@+id/Bresistor03gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#969696"
+                    android:text="gray" />
+
+                <Button
+                    android:id="@+id/Bresistor03white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#ffffff"
+                    android:text="white" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_margin="3dp"
+            android:layout_weight="0.2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/Bresistor04black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#000000"
+                    android:text="black"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/Bresistor04brown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#975901"
+                    android:text="brown" />
+
+                <Button
+                    android:id="@+id/Bresistor04red"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fd0102"
+                    android:text="red" />
+
+                <Button
+                    android:id="@+id/Bresistor04orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fd6632"
+                    android:text="orange" />
+
+                <Button
+                    android:id="@+id/Bresistor04yellow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fcfc01"
+                    android:text="yellow" />
+
+                <Button
+                    android:id="@+id/Bresistor04green"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#00aa02"
+                    android:text="green" />
+
+                <Button
+                    android:id="@+id/Bresistor04blue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#0296fc"
+                    android:text="blue" />
+
+                <Button
+                    android:id="@+id/Bresistor04violet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#af7ae9"
+                    android:text="violet" />
+
+                <Button
+                    android:id="@+id/Bresistor04gold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#eac201"
+                    android:text="gold" />
+
+                <Button
+                    android:id="@+id/Bresistor04silver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#c9c9c9"
+                    android:text="silver" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_margin="3dp"
+            android:layout_weight="0.2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/Bresistor05brown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#975901"
+                    android:text="brown" />
+
+                <Button
+                    android:id="@+id/Bresistor05red"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fd0102"
+                    android:text="red" />
+
+
+                <Button
+                    android:id="@+id/Bresistor05green"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#00aa02"
+                    android:text="green" />
+
+                <Button
+                    android:id="@+id/Bresistor05blue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#0296fc"
+                    android:text="blue" />
+
+                <Button
+                    android:id="@+id/Bresistor05violet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#af7ae9"
+                    android:text="violet" />
+
+                <Button
+                    android:id="@+id/Bresistor05gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#c9c9c9"
+                    android:text="gray" />
+
+                <Button
+                    android:id="@+id/Bresistor05gold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#eac201"
+                    android:text="gold" />
+
+                <Button
+                    android:id="@+id/Bresistor05silver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#c9c9c9"
+                    android:text="silver" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="Your Resistor Ω Is :"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Btxtanswer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="With +/- "
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Btxttolerance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="% Tolerance"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

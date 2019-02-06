@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Resistor4Band"
+    android:background="#fda367"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:foregroundGravity="center"
+            android:src="@mipmap/resistor01" />
+
+        <ImageView
+            android:id="@+id/resistor01"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:foregroundGravity="center"
+            android:src="@mipmap/resistor02black" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:foregroundGravity="center"
+            android:src="@mipmap/resistor03" />
+
+        <ImageView
+            android:id="@+id/resistor02"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:foregroundGravity="center"
+            android:src="@mipmap/resistor04black" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:foregroundGravity="center"
+            android:src="@mipmap/resistor05" />
+
+        <ImageView
+            android:id="@+id/resistor03"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:foregroundGravity="center"
+            android:src="@mipmap/resistor06black" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:foregroundGravity="center"
+            android:src="@mipmap/resistor07" />
+
+        <ImageView
+            android:id="@+id/resistor04"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:foregroundGravity="center"
+            android:src="@mipmap/resistor08brown" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:foregroundGravity="center"
+            android:src="@mipmap/resistor09" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Choose Your Color"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp"
+            android:background="#000000"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="3dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_margin="3dp"
+            android:layout_weight=".25">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/resistor01black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="05dp"
+                    android:background="#000000"
+                    android:text="black"
+                    android:textColor="#FFFFFF"
+                    />
+
+                <Button
+                    android:id="@+id/resistor01brown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#975901"
+                    android:text="brown" />
+
+                <Button
+                    android:id="@+id/resistor01red"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fd0102"
+                    android:text="red" />
+
+                <Button
+                    android:id="@+id/resistor01orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fd6632"
+                    android:text="orange" />
+
+                <Button
+                    android:id="@+id/resistor01yellow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fcfc01"
+                    android:text="yellow" />
+
+                <Button
+                    android:id="@+id/resistor01green"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#00aa02"
+                    android:text="green" />
+
+                <Button
+                    android:id="@+id/resistor01blue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#0296fc"
+                    android:text="blue" />
+
+                <Button
+                    android:id="@+id/resistor01violet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#af7ae9"
+                    android:text="violet" />
+
+                <Button
+                    android:id="@+id/resistor01gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#969696"
+                    android:text="gray" />
+
+                <Button
+                    android:id="@+id/resistor01white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#ffffff"
+                    android:text="white" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_margin="3dp"
+            android:layout_weight="0.25">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/resistor02black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="05dp"
+                    android:background="#000000"
+                    android:text="black"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/resistor02brown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#975901"
+                    android:text="brown" />
+
+                <Button
+                    android:id="@+id/resistor02red"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fd0102"
+                    android:text="red" />
+
+                <Button
+                    android:id="@+id/resistor02orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fd6632"
+                    android:text="orange" />
+
+                <Button
+                    android:id="@+id/resistor02yellow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fcfc01"
+                    android:text="yellow" />
+
+                <Button
+                    android:id="@+id/resistor02green"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#00aa02"
+                    android:text="green" />
+
+                <Button
+                    android:id="@+id/resistor02blue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#0296fc"
+                    android:text="blue" />
+
+                <Button
+                    android:id="@+id/resistor02violet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#af7ae9"
+                    android:text="violet" />
+
+                <Button
+                    android:id="@+id/resistor02gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#969696"
+                    android:text="gray" />
+
+                <Button
+                    android:id="@+id/resistor02white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#ffffff"
+                    android:text="white" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_margin="3dp"
+            android:layout_weight="0.25">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/resistor03black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="05dp"
+                    android:background="#000000"
+                    android:text="black"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/resistor03brown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#975901"
+                    android:text="brown" />
+
+                <Button
+                    android:id="@+id/resistor03red"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fd0102"
+                    android:text="red" />
+
+                <Button
+                    android:id="@+id/resistor03orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fd6632"
+                    android:text="orange" />
+
+                <Button
+                    android:id="@+id/resistor03yellow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fcfc01"
+                    android:text="yellow" />
+
+                <Button
+                    android:id="@+id/resistor03green"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#00aa02"
+                    android:text="green" />
+
+                <Button
+                    android:id="@+id/resistor03blue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#0296fc"
+                    android:text="blue" />
+
+                <Button
+                    android:id="@+id/resistor03violet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#af7ae9"
+                    android:text="violet" />
+
+                <Button
+                    android:id="@+id/resistor03gold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#eac201"
+                    android:text="gold" />
+
+                <Button
+                    android:id="@+id/resistor03silver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#c9c9c9"
+                    android:text="silver" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_margin="3dp"
+            android:layout_weight="0.25"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/resistor04brown"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#975901"
+                    android:text="brown" />
+
+                <Button
+                    android:id="@+id/resistor04red"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#fd0102"
+                    android:text="red" />
+
+
+                <Button
+                    android:id="@+id/resistor04green"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#00aa02"
+                    android:text="green" />
+
+                <Button
+                    android:id="@+id/resistor04blue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#0296fc"
+                    android:text="blue" />
+
+                <Button
+                    android:id="@+id/resistor04violet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#af7ae9"
+                    android:text="violet" />
+
+                <Button
+                    android:id="@+id/resistor04gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#c9c9c9"
+                    android:text="gray" />
+
+                <Button
+                    android:id="@+id/resistor04gold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#eac201"
+                    android:text="gold" />
+
+                <Button
+                    android:id="@+id/resistor04silver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:background="#c9c9c9"
+                    android:text="silver" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Your Resistor Ω Is :"
+            android:gravity="right"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/txtanswer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="With +/- "
+            android:gravity="right"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/txttolerance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:text="% Tolerance"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
